@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#drop-area {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    color: #888;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#drop-area.highlight {
+    border-color: #2980b9;
+    background-color: #f0f0f0;
+}
+
+.btn {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #1c6f9c;
+}
+
+.preview {
+    display: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    display: none;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    display: none;
+}
